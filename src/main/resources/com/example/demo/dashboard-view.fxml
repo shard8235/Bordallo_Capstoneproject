@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="238.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.DashboardController">
+   <children>
+      <Button fx:id="logout" layoutX="132.0" layoutY="183.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" text="Log out" />
+      <Button fx:id="createReservation" layoutX="115.0" layoutY="145.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Create Reservation" />
+      <Button fx:id="bookingHistory" layoutX="34.0" layoutY="113.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="View Booking History" />
+      <Button fx:id="availableRooms" layoutX="198.0" layoutY="113.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="161.0" text="Available rooms" />
+      <Label />
+      <Label layoutX="67.0" layoutY="45.0" prefHeight="34.0" prefWidth="279.0" text="Hotel Reservation System">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
