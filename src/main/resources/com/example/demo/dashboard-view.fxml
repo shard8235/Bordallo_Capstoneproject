@@ -4,16 +4,17 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="238.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.DashboardController">
+<AnchorPane prefHeight="303.0" prefWidth="518.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.DashboardController">
    <children>
-      <Button fx:id="logout" layoutX="132.0" layoutY="183.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" text="Log out" />
-      <Button fx:id="createReservation" layoutX="115.0" layoutY="145.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="Create Reservation" />
-      <Button fx:id="bookingHistory" layoutX="34.0" layoutY="113.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="145.0" text="View Booking History" />
-      <Button fx:id="availableRooms" layoutX="198.0" layoutY="113.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="161.0" text="Available rooms" />
+      <Button fx:id="logout" layoutX="204.0" layoutY="253.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" text="Log out" />
+      <Button fx:id="createReservation" layoutX="178.0" layoutY="136.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="161.0" text="Create Reservation" />
+      <Button fx:id="availableRooms" layoutX="178.0" layoutY="102.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="161.0" text="Available rooms" />
       <Label />
-      <Label layoutX="67.0" layoutY="45.0" prefHeight="34.0" prefWidth="279.0" text="Hotel Reservation System">
+      <Label layoutX="55.0" layoutY="39.0" prefHeight="49.0" prefWidth="409.0" text="Hotel Reservation System">
          <font>
-            <Font size="23.0" />
+            <Font name="Microsoft Yi Baiti" size="42.0" />
          </font></Label>
+      <Button layoutX="179.0" layoutY="205.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="161.0" text="View Reservations" />
+      <Button layoutX="179.0" layoutY="171.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="161.0" text="Cancel Reservation" />
    </children>
 </AnchorPane>

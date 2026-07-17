@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="258.0" prefWidth="523.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+   <children>
+      <Label layoutX="54.0" layoutY="36.0" prefHeight="41.0" prefWidth="431.0" text="Hotel Reservation Admin System">
+         <font>
+            <Font name="Microsoft Yi Baiti" size="35.0" />
+         </font></Label>
+      <Button layoutX="130.0" layoutY="96.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="247.0" text="View and Manage Reservations" />
+      <Button layoutX="130.0" layoutY="130.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="247.0" text="View and Manage Users" />
+      <Button layoutX="130.0" layoutY="164.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="247.0" text="View and Manage Rooms" />
+      <Button layoutX="228.0" layoutY="211.0" mnemonicParsing="false" text="Log out" />
+   </children>
+</AnchorPane>
